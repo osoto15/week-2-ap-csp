@@ -48,9 +48,35 @@ chicago_mayor = "Johnson"
 #index slicing
 print(chicago_mayor[0])
 #get the last letter
+print(chicago_mayor[-1])
 #get the 's' in the string
+print(chicago_mayor[4])
+#slicing
+#get the "son" form the string
+print(chicago_mayor[ 4 : ]) #blank is to the end of it
+#the first number in slicing is inclusing
+#the second number is exclusive
+# get the string "John"
+print(chicago_mayor[0: 4])
+print(chicago_mayor[0: -3])
+# get "ohns"
+print(chicago_mayor[1:5])
+#when we get one character/letter
+#its called string indexing
+#when we get a chunk of letters
+#from a string, its called
+# string slicing
 
-phrase3 = 
+# git add .
+# git commit -m "string slicing"
+# git push origin
+
+phrase3 = "Supercagifragilstic"
+#uppercase it
+print("Uppercase:", phrase3.upper())
+#slice super out of it into a different variable
+cut = phrase3[0:5]
+print(cut)
 
 # # Indexing: Access characters by position (0-based index)
 # print("First character:", phrase[0])  # Output: P
